@@ -1,6 +1,6 @@
 # cash
 
-#Packages
+# Packages
 To run the index.js you need to install some packages. Every packages you need to add are in the package.json file.
 
 *If you need help*<br/>

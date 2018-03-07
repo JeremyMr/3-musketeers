@@ -20,7 +20,7 @@ If you need help
 ```sh
 node index.js
 ```
-Example : convert 1 USD in anything
+Example : convert 1 USD in the default currencies
 ```sh
 node index.js 1 usd
 ```

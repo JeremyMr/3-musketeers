@@ -6,10 +6,13 @@ const cash = require('./cash.js');
 
 const config = new Conf();
 
+//Array of argv
 const argv = process.argv.slice(2);
 
+//Function to checker if the user wrote --save or --help or --version
 helpers(argv);
 
+//Main command
 const command = {
   'amount': argv[0] || 1,
   'from': argv[1] || config.get('defaultFrom', 'USD'),
@@ -19,4 +22,5 @@ const command = {
       : config.get('defaultTo', ['USD', 'EUR', 'GBP', 'PLN'])
 };
 
+//Execution of the command
 cash(command);

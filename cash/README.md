@@ -32,3 +32,7 @@ Example : set up the default currencies for EUR (USD GBP AUD)
 ```sh
 node index.js --save eur usd gbp aud
 ```
+Command to know the version
+```sh
+node index.js --version
+```

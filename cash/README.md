@@ -28,3 +28,7 @@ Example : convert 100 EUR in Australian dollar
 ```sh
 node index.js 100 eur aud
 ```
+Example : set up the default currencies for EUR (USD GBP AUD)
+```sh
+node index.js --save eur usd gbp aud
+```
